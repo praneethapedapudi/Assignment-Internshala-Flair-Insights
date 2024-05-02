@@ -1,0 +1,86 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background color and font family */
+body {
+    background-color: #F6F5F2;
+    font-family: Arial, sans-serif;
+    color: #070F2B;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F0EBE3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #535C91;
+}
+
+/* Form styles */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #9290C3;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #9290C3;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #9290C3;
+    color: #F6F5F2;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #535C91;
+}
+
+/* Display data styles */
+#displayData {
+    background-color: #F3D0D7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #070F2B;
+}
+
+#displayData p {
+    margin-bottom: 10px;
+}
+
+/* Theme toggle styles */
+.theme-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toggle-label {
+    margin-left: 5px;
+}
